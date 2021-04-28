@@ -14,7 +14,18 @@ public class Persona{
         this.Nombre = Nombre;
         this.Sexo = Sexo;
     }
-   
+   //SETTER
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public void setNombre(String Nombre) {
+        this.Nombre = Nombre;
+    }
+
+    public void setSexo(String Sexo) {
+        this.Sexo = Sexo;
+    }
 
     
 //GETTER
